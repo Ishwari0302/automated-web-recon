@@ -187,8 +187,8 @@ for path in common_paths:
             f"[+] {path} -> {directory_response.status_code} (Redirect)"
             )
 
-    except requests.RequestException as error:
-        print(f"[ERROR] Could not access {path}: {error}")
+    except requests.RequestException:
+        print(f"[!] {path} -> Request failed or timed out")
 
 print("\nCookie Security Analysis:")
 
