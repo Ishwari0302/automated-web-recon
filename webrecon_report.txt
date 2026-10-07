@@ -1,0 +1,43 @@
+========== WEBRECON REPORT ==========
+
+Target: https://www.site-example.com/
+IP Address: 192.178.193.121
+HTTP Status: 200
+TLS Version: TLSv1.3
+
+Recon:
+[+] Server: Google Frontend
+
+--- robots.txt ---
+User-agent: *
+Allow: /
+# AI/LLM guidance: https://www.site-example.com/llms.txt
+Sitemap: https://www.site-example.com/sitemap.xml
+
+
+--- Sitemap ---
+[+] sitemap.xml found
+
+Discovered URLs:
+- https://www.site-example.com/
+- https://www.site-example.com/images.html
+- https://www.site-example.com/forms.html
+- https://www.site-example.com/tables.html
+- https://www.site-example.com/links.html
+- https://www.site-example.com/media.html
+- https://www.site-example.com/text.html
+- https://www.site-example.com/files.html
+
+--- Directory Discovery ---
+[+] No interesting directories found
+
+Priority Findings:
+[LOW] Strict-Transport-Security missing
+         → HTTPS enforcement is not explicitly configured
+[MEDIUM] Content-Security-Policy missing
+         → Content injection/XSS protection may be weaker
+[INFO] X-Frame-Options missing
+         → Clickjacking protection is not explicitly configured
+[INFO] X-Content-Type-Options missing
+         → MIME-sniffing protection is not explicitly configured
+=====================================
