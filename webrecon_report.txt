@@ -1,7 +1,7 @@
 ========== WEBRECON REPORT ==========
 
-Target: https://www.site-example.com/
-IP Address: 192.178.193.121
+Target: https://site-example.com/
+IP Address: 216.239.38.21
 HTTP Status: 200
 TLS Version: TLSv1.3
 

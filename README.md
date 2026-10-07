@@ -118,3 +118,17 @@ automated-web-recon/
 - DNS resolution
 - HTTP/HTTPS
 - Git & GitHub
+
+## Screenshots
+
+### WebRecon Scan
+
+![WebRecon scan](screenshots/webrecon-scan-1.png)
+
+### Security Findings
+
+![WebRecon security findings](screenshots/webrecon-scan-2.png)
+
+### Generated Report
+
+![WebRecon generated report](screenshots/webrecon-report.png)
